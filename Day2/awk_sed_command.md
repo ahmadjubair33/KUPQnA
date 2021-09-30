@@ -3,16 +3,18 @@
  
 ## Example
  
- consider `cat > text.txt` as a file\
-  `Linux is good`\
-  `Linux is easy`\
+ consider `cat > text.txt` as a file
+  `Linux is good`
+  `Linux is easy`
   
   
-## Replacing or substituting string\
-  `$ sed -i 's/Linux/Unix/g' text.txt`\
+## Replacing or substituting string
+  `$ sed -i 's/Linux/Unix/g' text.txt`
   
-## Updated text.txt file will look like this\
-  `Unix is good`\
-  `Unix is easy`\
+## Updated text.txt file will look like this
+  `Unix is good`
+  `Unix is easy`
+  
+##
   
 
