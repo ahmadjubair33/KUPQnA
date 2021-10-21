@@ -1,10 +1,32 @@
 #!/bin/bash
 
+fun1 () {
+	echo $1 $2 
+	return 10
+	fun
+}
+fun1 xara hi
+rat=$?
+echo $rat
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## ex1
 fun () {
     echo "Welcome to bash."
 }
-fun
+
 ## ex2
 #Script to pass and access arguments
 function_arguments()

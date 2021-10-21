@@ -1,19 +1,13 @@
 #!/bin/bash
+arr=(name hello ahmad 1 5 hhwh)
+echo ${#arr[2]}
+echo ${#arr[@]}
+echo ${arr[@]}
+echo ${arr[@]:1:3}
+unset arr[0]
+echo ${arr[@]}
+for((i=0;i<${#arr[@]};i++));do
 
-var_arr=(man  ”bear” ”pig” ”dog” ”cat”  “sheep”)
-for((i=0; i<5; i++))
-do
-echo ${var_arr[i]}
+	echo $i
+	
 done
-
-read -a  names
-
-echo ${names[0]} ${names[1]}
-#Script to delete the element from the array
-#Declaring the array
-declare -a example_array=( "Java""Python""HTML""CSS""JavaScript" )
-#Removing the element
-unset example_array[1]
-
-#Printing all the elements after deletion
-echo "${example_array[@]}"

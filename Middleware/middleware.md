@@ -22,6 +22,7 @@ The data tier would be some sort of database, such as a MySQL, SQLite or Postgre
 
 
 ## 2. do application server only process dynamic pages?
+ NO
 
 ## 3.  What is a web container?
   A web container is the component of a web server that interacts with Java servlets. A web container manages the life cycle of servlets; it maps a URL to a particular servlet while ensuring that the requester has relevant access-rights.
