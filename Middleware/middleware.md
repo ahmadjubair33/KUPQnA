@@ -10,7 +10,7 @@ This contains set of rules for processing information, business logic and able t
 It processes the inputs received from the clients and interacts with the database.
 The logic tier will have the JSP, Java Servlets, Ruby, PHP, C++, Python and other programs. The logic tier would be run on a Web server.
 
-<u> Data Tier </u>
+<u> Data Tier </u>-->
 A database, comprising both data sets and the database management system or RDBMS software that manages and provides access to the data (back-end).
 It provides security, data integrity and support application.
 The data tier would be some sort of database, such as a MySQL, SQLite or PostgreSQL database. All of these are run on a separate database server.
